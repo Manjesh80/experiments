@@ -22,11 +22,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="guava-demo" />
         <module name="guice-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="experiments" target="1.5" />
+      <module name="guava-demo" target="1.5" />
       <module name="guice-demo" target="1.7" />
     </bytecodeTargetLevel>
   </component>
