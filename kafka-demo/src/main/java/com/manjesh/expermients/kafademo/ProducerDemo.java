@@ -1,13 +1,18 @@
 package com.manjesh.expermients.kafademo;
 
+import com.google.gson.Gson;
+import com.manjesh.experiments.common.Review;
 import org.apache.kafka.clients.producer.Callback;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
 
+import java.util.Arrays;
 import java.util.Properties;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
+
+import com.manjesh.experiments.common.Book;
 
 /**
  * Author: mg153v (Manjesh Gowda). Creation Date: 11/16/2016.
@@ -28,7 +33,10 @@ public class ProducerDemo {
         KafkaProducer<String, String> kafkaProducer = new KafkaProducer<String, String>(kafkaProps);
 
         for (int i = 0; i < 5; i++) {
-            ProducerRecord<String, String> sampleRecord = new ProducerRecord<String, String>("jai-ganesh", "First Message from Java");
+            Book book = new Book("Ganesh author", "Book Number - " + Integer.toString(i), "Kailash Publisher", "Test-ISBN", 1.0);
+            book.setReviewers(Arrays.asList(new Review("Review by Ganesh")));
+            ProducerRecord<String, String> sampleRecord = new ProducerRecord<String, String>(
+                    "jai-ganesh", (new Gson()).toJson(book));
             KafkaResponseHandler responseHandler = new KafkaResponseHandler();
             kafkaProducer.send(sampleRecord, responseHandler);
             /*try {

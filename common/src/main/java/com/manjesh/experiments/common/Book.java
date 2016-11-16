@@ -3,6 +3,10 @@ package com.manjesh.experiments.common;
 import com.google.common.base.Objects;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.ComparisonChain;
+import lombok.Getter;
+import lombok.Setter;
+
+import java.util.List;
 
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -17,6 +21,9 @@ public class Book implements Comparable<Book> {
     private String publisher;
     private String isbn;
     private double price;
+    @Getter
+    @Setter
+    private List<Review> reviewers;
 
     public Book(String author, String title, String publisher, String isbn, double price) {
         this.author = Preconditions.checkNotNull(author,"Author can't be null");
