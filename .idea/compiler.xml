@@ -24,12 +24,14 @@
         <processorPath useClasspath="true" />
         <module name="guava-demo" />
         <module name="guice-demo" />
+        <module name="kafka-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="experiments" target="1.5" />
       <module name="guava-demo" target="1.5" />
       <module name="guice-demo" target="1.7" />
+      <module name="kafka-demo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

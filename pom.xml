@@ -11,6 +11,7 @@
     <modules>
         <module>guice-demo</module>
         <module>guava-demo</module>
+        <module>kafka-demo</module>
     </modules>
 
     <dependencies>
@@ -40,6 +41,11 @@
             <artifactId>junit</artifactId>
             <version>4.11</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.5</version>
         </dependency>
     </dependencies>
 
