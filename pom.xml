@@ -12,6 +12,7 @@
         <module>guice-demo</module>
         <module>guava-demo</module>
         <module>kafka-demo</module>
+        <module>common</module>
     </modules>
 
     <dependencies>

@@ -1,5 +1,6 @@
-package com.manjesh.experiments.guavademo.common;
+package com.manjesh.experiments.common;
 
+import com.google.common.base.Preconditions;
 import com.google.common.collect.ComparisonChain;
 
 import static com.google.common.base.Preconditions.checkArgument;
@@ -16,12 +17,12 @@ public class Person implements Comparable<Person> {
     private String sex;
 
     public Person(String firstName, String lastName, int age, String sex) {
-        this.firstName = checkNotNull(firstName, "First name can't be null");
-        this.lastName = checkNotNull(lastName, "Last name can't be null");
-        checkArgument(age > 0, "Age has to be greater than 0");
+        this.firstName = Preconditions.checkNotNull(firstName, "First name can't be null");
+        this.lastName = Preconditions.checkNotNull(lastName, "Last name can't be null");
+        Preconditions.checkArgument(age > 0, "Age has to be greater than 0");
         this.age = age;
-        this.sex = checkNotNull(sex, "Sex can't be null");
-        checkArgument((sex.equals("M") || sex.equals("F")), "Sex has to be either M or F");
+        this.sex = Preconditions.checkNotNull(sex, "Sex can't be null");
+        Preconditions.checkArgument((sex.equals("M") || sex.equals("F")), "Sex has to be either M or F");
     }
 
     public String getFirstName() {

@@ -1,4 +1,6 @@
-package com.manjesh.experiments.guavademo.common;
+package com.manjesh.experiments.common;
+
+import com.google.common.base.Preconditions;
 
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -12,9 +14,10 @@ public class TradeAccount {
     private double balance;
 
     public TradeAccount(String id, String owner, double balance) {
-        this.id = checkNotNull(id,"ID can't be null");
-        this.owner = checkNotNull(owner,"Owner can't be null");
-        checkArgument(balance > 0.0,"Balance can't be less than 0");
+
+        this.id = Preconditions.checkNotNull(id,"ID can't be null");
+        this.owner = Preconditions.checkNotNull(owner,"Owner can't be null");
+        Preconditions.checkArgument(balance > 0.0,"Balance can't be less than 0");
         this.balance = balance;
     }
 

@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fcad6b7-575a-4f6d-9aa5-8263671fd99c" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/Book.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Book.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/City.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/City.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/Climate.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Climate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/Person.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Person.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/Region.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Region.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/State.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/State.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/Stock.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Stock.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/TradeAccount.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/TradeAccount.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments.iml" afterPath="$PROJECT_DIR$/experiments.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guava-demo/pom.xml" afterPath="$PROJECT_DIR$/guava-demo/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guava-demo/src/test/java/testCompareTo.java" afterPath="$PROJECT_DIR$/guava-demo/src/test/java/testCompareTo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="experiments.iws" />
@@ -15,6 +26,7 @@
     <ignored path="$PROJECT_DIR$/guice-demo/target/" />
     <ignored path="$PROJECT_DIR$/guava-demo/target/" />
     <ignored path="$PROJECT_DIR$/kafka-demo/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,43 +43,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProducerDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/ProducerDemo.java">
+      <file leaf-file-name="testCompareTo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/guava-demo/src/test/java/testCompareTo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#947#963#0" expanded="true" />
-                <element signature="e#1092#1108#0" expanded="true" />
-                <element signature="e#1906#2048#0" expanded="true" />
-                <element signature="e#2047#2048#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KafkaResponseHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/KafkaResponseHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecordMetadata.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.1.0/kafka-clients-0.10.1.0.jar!/org/apache/kafka/clients/producer/RecordMetadata.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
-              <folding>
-                <element signature="e#1954#1955#0" expanded="true" />
-                <element signature="e#2008#2009#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,7 +83,6 @@
         <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/di/DIConfigurationModule.java" />
         <option value="$PROJECT_DIR$/guava-demo/src/main/java/Person.java" />
         <option value="$PROJECT_DIR$/guava-demo/src/main/java/Book.java" />
-        <option value="$PROJECT_DIR$/guava-demo/pom.xml" />
         <option value="$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/Book.java" />
         <option value="$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/City.java" />
         <option value="$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/Climate.java" />
@@ -113,11 +93,18 @@
         <option value="$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/TradeAccount.java" />
         <option value="$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/TradeAccount.java" />
         <option value="$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/Book.java" />
-        <option value="$PROJECT_DIR$/guava-demo/src/test/java/testCompareTo.java" />
         <option value="$PROJECT_DIR$/kafka-demo/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/KafkaResponseHandler.java" />
         <option value="$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/ProducerDemo.java" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/guava-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Book.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/State.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/TradeAccount.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/City.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Person.java" />
+        <option value="$PROJECT_DIR$/guava-demo/src/test/java/testCompareTo.java" />
       </list>
     </option>
   </component>
@@ -246,7 +233,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kafka-demo" />
+              <option name="myItemId" value="guava-demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -260,25 +247,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kafka-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="experiments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="experiments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kafka-demo" />
+              <option name="myItemId" value="guava-demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -286,37 +255,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="experiments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="experiments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kafka-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kafademo" />
+              <option name="myItemId" value="experiments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guava-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -921,7 +882,7 @@
       <workItem from="1478020199751" duration="79000" />
       <workItem from="1479142113464" duration="3332000" />
       <workItem from="1479146715256" duration="4661000" />
-      <workItem from="1479309573904" duration="5193000" />
+      <workItem from="1479309573904" duration="6888000" />
     </task>
     <servers />
   </component>
@@ -943,7 +904,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14824000" />
+    <option name="totallyTimeSpent" value="16519000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -966,19 +927,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24714105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.379015" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27301928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51070666" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4229122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34796575" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18869123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1321474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4025696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4025696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1027,20 +988,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/SearchEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/SearchClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/launcher/GuiceDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1274,138 +1221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#City#0;class#City#0" expanded="false" />
-            <element signature="method#toString#0;class#City#0" expanded="false" />
-            <element signature="method#equals#0;class#City#0" expanded="false" />
-            <element signature="method#hashCode#0;class#City#0" expanded="false" />
-            <element signature="class#Builder#0;class#City#0" expanded="false" />
-            <element signature="method#name#0;class#Builder#0;class#City#0" expanded="false" />
-            <element signature="method#zipCode#0;class#Builder#0;class#City#0" expanded="false" />
-            <element signature="method#population#0;class#Builder#0;class#City#0" expanded="false" />
-            <element signature="method#averageRainfall#0;class#Builder#0;class#City#0" expanded="false" />
-            <element signature="method#climate#0;class#Builder#0;class#City#0" expanded="false" />
-            <element signature="method#build#0;class#Builder#0;class#City#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/Climate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="method#Person#0;class#Person#0" expanded="false" />
-            <element signature="method#equals#0;class#Person#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Person#0" expanded="false" />
-            <element signature="class#Builder#0;class#Person#0" expanded="false" />
-            <element signature="method#firstName#0;class#Builder#0;class#Person#0" expanded="false" />
-            <element signature="method#lastName#0;class#Builder#0;class#Person#0" expanded="false" />
-            <element signature="method#age#0;class#Builder#0;class#Person#0" expanded="false" />
-            <element signature="method#sex#0;class#Builder#0;class#Person#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/Region.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/Stock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#453#454#0" expanded="false" />
-            <element signature="e#486#487#0" expanded="false" />
-            <element signature="e#515#516#0" expanded="false" />
-            <element signature="e#976#977#0" expanded="false" />
-            <element signature="e#1413#1414#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/TradeAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#TradeAccount#0;class#TradeAccount#0" expanded="false" />
-            <element signature="method#equals#0;class#TradeAccount#0" expanded="false" />
-            <element signature="method#hashCode#0;class#TradeAccount#0" expanded="false" />
-            <element signature="class#Builder#0;class#TradeAccount#0" expanded="false" />
-            <element signature="method#Builder#0;class#Builder#0;class#TradeAccount#0" expanded="false" />
-            <element signature="method#id#0;class#Builder#0;class#TradeAccount#0" expanded="false" />
-            <element signature="method#owner#0;class#Builder#0;class#TradeAccount#0" expanded="false" />
-            <element signature="method#balance#0;class#Builder#0;class#TradeAccount#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guava-demo/src/test/java/testCompareTo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#toString#0;class#Book#0" expanded="false" />
-            <element signature="class#Builder#0;class#Book#0" expanded="false" />
-            <element signature="method#author#0;class#Builder#0;class#Book#0" expanded="false" />
-            <element signature="method#title#0;class#Builder#0;class#Book#0" expanded="false" />
-            <element signature="method#publisher#0;class#Builder#0;class#Book#0" expanded="false" />
-            <element signature="method#isbn#0;class#Builder#0;class#Book#0" expanded="false" />
-            <element signature="method#price#0;class#Builder#0;class#Book#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guava-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Hashtable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -1449,14 +1264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.1.0/kafka-clients-0.10.1.0.jar!/org/apache/kafka/clients/producer/RecordMetadata.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -1480,15 +1287,153 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/ProducerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        <state relative-caret-position="355">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#947#963#0" expanded="true" />
             <element signature="e#1092#1108#0" expanded="true" />
-            <element signature="e#1906#2048#0" expanded="true" />
-            <element signature="e#2047#2048#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Climate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Region.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="33" column="21" selection-start-line="29" selection-start-column="7" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/14.0/guava-14.0-sources.jar!/com/google/common/base/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="44" />
+          <folding>
+            <element signature="method#toString#0;class#Book#0" expanded="false" />
+            <element signature="class#Builder#0;class#Book#0" expanded="false" />
+            <element signature="method#author#0;class#Builder#0;class#Book#0" expanded="false" />
+            <element signature="method#title#0;class#Builder#0;class#Book#0" expanded="false" />
+            <element signature="method#publisher#0;class#Builder#0;class#Book#0" expanded="false" />
+            <element signature="method#isbn#0;class#Builder#0;class#Book#0" expanded="false" />
+            <element signature="method#price#0;class#Builder#0;class#Book#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/TradeAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#equals#0;class#TradeAccount#0" expanded="false" />
+            <element signature="method#hashCode#0;class#TradeAccount#0" expanded="false" />
+            <element signature="class#Builder#0;class#TradeAccount#0" expanded="false" />
+            <element signature="method#Builder#0;class#Builder#0;class#TradeAccount#0" expanded="false" />
+            <element signature="method#id#0;class#Builder#0;class#TradeAccount#0" expanded="false" />
+            <element signature="method#owner#0;class#Builder#0;class#TradeAccount#0" expanded="false" />
+            <element signature="method#balance#0;class#Builder#0;class#TradeAccount#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="method#toString#0;class#City#0" expanded="false" />
+            <element signature="method#equals#0;class#City#0" expanded="false" />
+            <element signature="method#hashCode#0;class#City#0" expanded="false" />
+            <element signature="class#Builder#0;class#City#0" expanded="false" />
+            <element signature="method#name#0;class#Builder#0;class#City#0" expanded="false" />
+            <element signature="method#zipCode#0;class#Builder#0;class#City#0" expanded="false" />
+            <element signature="method#population#0;class#Builder#0;class#City#0" expanded="false" />
+            <element signature="method#averageRainfall#0;class#Builder#0;class#City#0" expanded="false" />
+            <element signature="method#climate#0;class#Builder#0;class#City#0" expanded="false" />
+            <element signature="method#build#0;class#Builder#0;class#City#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="method#equals#0;class#Person#0" expanded="false" />
+            <element signature="method#hashCode#0;class#Person#0" expanded="false" />
+            <element signature="class#Builder#0;class#Person#0" expanded="false" />
+            <element signature="method#firstName#0;class#Builder#0;class#Person#0" expanded="false" />
+            <element signature="method#lastName#0;class#Builder#0;class#Person#0" expanded="false" />
+            <element signature="method#age#0;class#Builder#0;class#Person#0" expanded="false" />
+            <element signature="method#sex#0;class#Builder#0;class#Person#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guava-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guava-demo/src/test/java/testCompareTo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

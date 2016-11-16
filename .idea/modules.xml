@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/experiments.iml" filepath="$PROJECT_DIR$/experiments.iml" />
       <module fileurl="file://$PROJECT_DIR$/guava-demo/guava-demo.iml" filepath="$PROJECT_DIR$/guava-demo/guava-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/guice-demo/guice-demo.iml" filepath="$PROJECT_DIR$/guice-demo/guice-demo.iml" />

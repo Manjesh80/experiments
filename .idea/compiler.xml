@@ -22,12 +22,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="common" />
         <module name="guava-demo" />
         <module name="guice-demo" />
         <module name="kafka-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common" target="1.5" />
       <module name="experiments" target="1.5" />
       <module name="guava-demo" target="1.5" />
       <module name="guice-demo" target="1.7" />

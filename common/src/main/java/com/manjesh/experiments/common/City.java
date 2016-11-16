@@ -1,5 +1,6 @@
-package com.manjesh.experiments.guavademo.common;
+package com.manjesh.experiments.common;
 
+import com.google.common.base.Preconditions;
 import com.google.common.primitives.Doubles;
 
 import static com.google.common.base.Preconditions.checkArgument;
@@ -17,12 +18,12 @@ public class City {
     private Climate climate;
 
     public City(String name, String zipCode, int population, Climate climate, double averageRainfall) {
-        this.name = checkNotNull(name, "Name can't be null");
-        this.zipCode = checkNotNull(zipCode, "Zip code can't be null");
-        checkArgument(population > 0, "Population can't be 0");
+        this.name = Preconditions.checkNotNull(name, "Name can't be null");
+        this.zipCode = Preconditions.checkNotNull(zipCode, "Zip code can't be null");
+        Preconditions.checkArgument(population > 0, "Population can't be 0");
         this.population = population;
-        this.climate = checkNotNull(climate);
-        checkArgument(averageRainfall > 0, "Average rainfall can't be 0");
+        this.climate = Preconditions.checkNotNull(climate);
+        Preconditions.checkArgument(averageRainfall > 0, "Average rainfall can't be 0");
         this.averageRainfall = averageRainfall;
     }
 

@@ -1,4 +1,4 @@
-import com.manjesh.experiments.guavademo.common.Book;
+import com.manjesh.experiments.common.Book;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;

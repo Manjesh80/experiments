@@ -1,4 +1,4 @@
-package com.manjesh.experiments.guavademo.common;
+package com.manjesh.experiments.common;
 
 import com.google.common.base.Objects;
 import com.google.common.primitives.Doubles;

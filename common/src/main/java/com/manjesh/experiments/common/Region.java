@@ -1,4 +1,4 @@
-package com.manjesh.experiments.guavademo.common;
+package com.manjesh.experiments.common;
 
 /**
  * Author: mg153v (Manjesh Gowda). Creation Date: 11/14/2016.

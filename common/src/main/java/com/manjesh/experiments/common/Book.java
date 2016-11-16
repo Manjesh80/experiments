@@ -1,6 +1,7 @@
-package com.manjesh.experiments.guavademo.common;
+package com.manjesh.experiments.common;
 
 import com.google.common.base.Objects;
+import com.google.common.base.Preconditions;
 import com.google.common.collect.ComparisonChain;
 
 import static com.google.common.base.Preconditions.checkArgument;
@@ -18,11 +19,11 @@ public class Book implements Comparable<Book> {
     private double price;
 
     public Book(String author, String title, String publisher, String isbn, double price) {
-        this.author = checkNotNull(author,"Author can't be null");
-        this.title = checkNotNull(title,"Title can't be null");
-        this.publisher = checkNotNull(publisher,"Publisher can't be null");
-        this.isbn = checkNotNull(isbn,"ISBN can't be null");
-        checkArgument(price > 0.0,"Price must be more than zero");
+        this.author = Preconditions.checkNotNull(author,"Author can't be null");
+        this.title = Preconditions.checkNotNull(title,"Title can't be null");
+        this.publisher = Preconditions.checkNotNull(publisher,"Publisher can't be null");
+        this.isbn = Preconditions.checkNotNull(isbn,"ISBN can't be null");
+        Preconditions.checkArgument(price > 0.0,"Price must be more than zero");
         this.price = price;
     }
 

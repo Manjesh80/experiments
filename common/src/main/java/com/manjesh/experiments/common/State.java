@@ -1,4 +1,6 @@
-package com.manjesh.experiments.guavademo.common;
+package com.manjesh.experiments.common;
+
+import com.google.common.base.Preconditions;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -16,10 +18,10 @@ public class State {
     private Region region;
 
     public State(String name, String code, Set<City> mainCities, Region region) {
-        this.name = checkNotNull(name, "Name can't be null");
-        this.code = checkNotNull(code, "Code can't be null");
-        this.mainCities = checkNotNull(mainCities, "Cities can't be null");
-        this.region = checkNotNull(region);
+        this.name = Preconditions.checkNotNull(name, "Name can't be null");
+        this.code = Preconditions.checkNotNull(code, "Code can't be null");
+        this.mainCities = Preconditions.checkNotNull(mainCities, "Cities can't be null");
+        this.region = Preconditions.checkNotNull(region);
     }
 
     public String getName() {
