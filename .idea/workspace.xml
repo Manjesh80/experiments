@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fcad6b7-575a-4f6d-9aa5-8263671fd99c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Book.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Book.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments.iml" afterPath="$PROJECT_DIR$/experiments.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kafka-demo/pom.xml" afterPath="$PROJECT_DIR$/kafka-demo/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/KafkaResponseHandler.java" afterPath="$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/KafkaResponseHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/ProducerDemo.java" afterPath="$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/ProducerDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
@@ -34,80 +34,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Book.java">
+      <file leaf-file-name="DataProviderService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/DataProviderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="136">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#toString#0;class#Book#0" expanded="false" />
-                <element signature="method#compareTo#0;class#Book#0" expanded="false" />
-                <element signature="class#Builder#0;class#Book#0" expanded="false" />
-                <element signature="method#author#0;class#Builder#0;class#Book#0" expanded="false" />
-                <element signature="method#title#0;class#Builder#0;class#Book#0" expanded="false" />
-                <element signature="method#publisher#0;class#Builder#0;class#Book#0" expanded="false" />
-                <element signature="method#isbn#0;class#Builder#0;class#Book#0" expanded="false" />
-                <element signature="method#price#0;class#Builder#0;class#Book#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/List.java">
+      <file leaf-file-name="DataProviderServiceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/guice-demo/src/test/java/service/DataProviderServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="110" column="37" selection-start-line="110" selection-start-column="37" selection-end-line="110" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Collection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Review.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Review.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+            <state relative-caret-position="391">
+              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProducerDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/ProducerDemo.java">
+      <file leaf-file-name="RemoteDataProviderService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/RemoteDataProviderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+            <state relative-caret-position="187">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="53" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1092#1108#0" expanded="true" />
-                <element signature="e#1445#1461#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kafka-demo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -152,7 +111,6 @@
         <option value="$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/TradeAccount.java" />
         <option value="$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/TradeAccount.java" />
         <option value="$PROJECT_DIR$/guava-demo/src/main/java/com/manjesh/experiments/guavademo/common/Book.java" />
-        <option value="$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/KafkaResponseHandler.java" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/guava-demo/pom.xml" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/State.java" />
@@ -160,11 +118,23 @@
         <option value="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/City.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Person.java" />
         <option value="$PROJECT_DIR$/guava-demo/src/test/java/testCompareTo.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-demo/pom.xml" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Book.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Review.java" />
+        <option value="$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/GenericKafkaMessageSerializer.java" />
+        <option value="$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/BookSerializer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/KafkaResponseHandler.java" />
         <option value="$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/ProducerDemo.java" />
+        <option value="$PROJECT_DIR$/thread-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/ExcelDataProviderService.java" />
+        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/LocalDataProviderService.java" />
+        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/RemoteDataProviderService.java" />
+        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/module/module.java" />
+        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/module/GuideDemoModule.java" />
+        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/GuiceDemoFactory.java" />
+        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/DataProviderService.java" />
+        <option value="$PROJECT_DIR$/guice-demo/src/test/java/service/DataProviderServiceTest.java" />
       </list>
     </option>
   </component>
@@ -183,48 +153,6 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="kafka-demo" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="kafka-demo" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="org.apache.kafka:kafka-clients:0.10.1.0" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="kafka-demo" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
       <PATH>
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
@@ -293,7 +221,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kafka-demo" />
+              <option name="myItemId" value="guice-demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -307,25 +235,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kafka-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="experiments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="experiments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kafka-demo" />
+              <option name="myItemId" value="guice-demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -333,7 +243,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,7 +265,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kafka-demo" />
+              <option name="myItemId" value="guice-demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -363,7 +281,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kafademo" />
+              <option name="myItemId" value="guicedemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -377,61 +295,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="experiments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="experiments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="experiments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="experiments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="experiments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="experiments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="guice-demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -447,7 +311,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="guicedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -465,9 +333,9 @@
     <property name="settings.editor.selected.configurable" value="debugger.stepping" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="SearchEverywhereHistoryKey" value="greate&#9;PSI&#9;JAVA://org.mockito.internal.matchers.GreaterThan" />
+    <property name="SearchEverywhereHistoryKey" value="UTF_8&#9;PSI&#9;JAVA://java.nio.charset.StandardCharsets#UTF_8&#10;greate&#9;PSI&#9;JAVA://org.mockito.internal.matchers.GreaterThan" />
   </component>
-  <component name="RunManager" selected="Application.ProducerDemo">
+  <component name="RunManager" selected="JUnit.DataProviderServiceTest">
     <configuration default="false" name="testCompareTo.testOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="guava-demo" />
@@ -507,6 +375,32 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="kafka-demo" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DataProviderServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="guice-demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.DataProviderServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1019,14 +913,16 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.testCompareTo.testOrder" />
       <item index="1" class="java.lang.String" itemvalue="Application.ProducerDemo" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DataProviderServiceTest" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.ProducerDemo" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.testCompareTo.testOrder" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DataProviderServiceTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ProducerDemo" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.testCompareTo.testOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -1052,11 +948,14 @@
       <workItem from="1478020199751" duration="79000" />
       <workItem from="1479142113464" duration="3332000" />
       <workItem from="1479146715256" duration="4661000" />
-      <workItem from="1479309573904" duration="8334000" />
+      <workItem from="1479309573904" duration="18014000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="DataProviderServiceTest - 2016.11.17 at 15h 43m 51s.xml">
+      <configuration name="DataProviderServiceTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="testCompareTo_testOrder - 2016.11.14 at 13h 52m 02s.xml">
       <configuration name="testCompareTo.testOrder" configurationId="JUnit" />
     </history-entry>
@@ -1074,7 +973,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17965000" />
+    <option name="totallyTimeSpent" value="27645000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1096,20 +995,20 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19377382" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27301928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51070666" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13341804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26873663" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.379015" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4261242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49036402" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14930114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26238883" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4025696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.506424" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1149,7 +1048,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/guice-demo/src/test/java/service/DataProviderServiceTest.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1158,128 +1065,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/SearchEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/SearchClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/launcher/GuiceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guice-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="21" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/manjesh/HttpClientDemo.java" />
-    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/SearchEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/SearchClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/launcher/GuiceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guice-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="21" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/di/DIConfigurationModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/LookupProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guava-demo/guava-demo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="5144" column="36" selection-start-line="5144" selection-start-column="36" selection-end-line="5144" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/14.0/guava-14.0.jar!/com/google/common/collect/ComparisonChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="91" column="54" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/14.0/guava-14.0-sources.jar!/com/google/common/collect/ComparisonChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.10/lombok-1.16.10.jar!/lombok/Data.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1378,17 +1163,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.1.0/kafka-clients-0.10.1.0.jar!/org/apache/kafka/clients/producer/KafkaProducer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="197" column="11" selection-start-line="197" selection-start-column="11" selection-end-line="197" selection-end-column="33" />
-          <folding>
-            <element signature="e#11616#11617#0" expanded="true" />
-            <element signature="e#11672#11673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/Future.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -1404,16 +1178,6 @@
           <folding>
             <element signature="e#1954#1955#0" expanded="true" />
             <element signature="e#2008#2009#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/KafkaResponseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1531,22 +1295,7 @@
         <state relative-caret-position="323">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
-          <folding>
-            <element signature="n#modules#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1562,38 +1311,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="110" column="37" selection-start-line="110" selection-start-column="37" selection-end-line="110" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/manjesh/experiments/common/Review.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#269#270#0" expanded="false" />
+            <element signature="e#317#318#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1603,7 +1328,7 @@
         <state relative-caret-position="204">
           <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="method#toString#0;class#Book#0" expanded="false" />
             <element signature="method#compareTo#0;class#Book#0" expanded="false" />
             <element signature="class#Builder#0;class#Book#0" expanded="false" />
@@ -1616,14 +1341,429 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="1317" column="22" selection-start-line="1317" selection-start-column="22" selection-end-line="1317" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="500" column="22" selection-start-line="500" selection-start-column="22" selection-end-line="500" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.1.0/kafka-clients-0.10.1.0.jar!/org/apache/kafka/common/serialization/Serializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/nio/charset/StandardCharsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#1626#0" expanded="false" />
+            <element signature="e#554#555#0" expanded="false" />
+            <element signature="e#653#654#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/nio/charset/Charset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1049">
+          <caret line="270" column="22" selection-start-line="270" selection-start-column="22" selection-end-line="270" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="956" column="18" selection-start-line="956" selection-start-column="18" selection-end-line="956" selection-end-column="18" />
+          <folding>
+            <element signature="docComment;class#String#0" expanded="false" />
+            <element signature="docComment;field#value#0;class#String#0" expanded="false" />
+            <element signature="docComment;field#hash#0;class#String#0" expanded="false" />
+            <element signature="docComment;field#serialVersionUID#0;class#String#0" expanded="false" />
+            <element signature="docComment;field#serialPersistentFields#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#1;class#String#0" expanded="false" />
+            <element signature="method#String#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#2;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#3;class#String#0" expanded="false" />
+            <element signature="method#String#3;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#4;class#String#0" expanded="false" />
+            <element signature="method#String#4;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#5;class#String#0" expanded="false" />
+            <element signature="method#String#5;class#String#0" expanded="false" />
+            <element signature="method#checkBounds#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#7;class#String#0" expanded="false" />
+            <element signature="method#String#7;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#8;class#String#0" expanded="false" />
+            <element signature="method#String#8;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#9;class#String#0" expanded="false" />
+            <element signature="method#String#9;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#10;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#11;class#String#0" expanded="false" />
+            <element signature="method#String#11;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#12;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#13;class#String#0" expanded="false" />
+            <element signature="method#String#13;class#String#0" expanded="false" />
+            <element signature="docComment;method#String#14;class#String#0" expanded="false" />
+            <element signature="method#String#15;class#String#0" expanded="false" />
+            <element signature="docComment;method#length#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#isEmpty#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#charAt#0;class#String#0" expanded="false" />
+            <element signature="method#charAt#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#codePointAt#0;class#String#0" expanded="false" />
+            <element signature="method#codePointAt#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#codePointBefore#0;class#String#0" expanded="false" />
+            <element signature="method#codePointBefore#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#codePointCount#0;class#String#0" expanded="false" />
+            <element signature="method#codePointCount#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#offsetByCodePoints#0;class#String#0" expanded="false" />
+            <element signature="method#offsetByCodePoints#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#getChars#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#getChars#1;class#String#0" expanded="false" />
+            <element signature="method#getChars#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#getBytes#0;class#String#0" expanded="false" />
+            <element signature="method#getBytes#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#getBytes#1;class#String#0" expanded="false" />
+            <element signature="method#getBytes#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#getBytes#2;class#String#0" expanded="false" />
+            <element signature="method#getBytes#2;class#String#0" expanded="false" />
+            <element signature="docComment;method#getBytes#3;class#String#0" expanded="false" />
+            <element signature="e#36393#36394#0" expanded="false" />
+            <element signature="e#36459#36460#0" expanded="false" />
+            <element signature="docComment;method#equals#0;class#String#0" expanded="false" />
+            <element signature="method#equals#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#contentEquals#0;class#String#0" expanded="false" />
+            <element signature="method#nonSyncContentEquals#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#contentEquals#1;class#String#0" expanded="false" />
+            <element signature="method#contentEquals#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#equalsIgnoreCase#0;class#String#0" expanded="false" />
+            <element signature="method#equalsIgnoreCase#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#compareTo#0;class#String#0" expanded="false" />
+            <element signature="method#compareTo#0;class#String#0" expanded="false" />
+            <element signature="docComment;field#CASE_INSENSITIVE_ORDER#0;class#String#0" expanded="false" />
+            <element signature="class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
+            <element signature="method#compare#0;class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#readResolve#0;class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
+            <element signature="method#readResolve#0;class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#compareToIgnoreCase#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#regionMatches#0;class#String#0" expanded="false" />
+            <element signature="method#regionMatches#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#regionMatches#1;class#String#0" expanded="false" />
+            <element signature="method#regionMatches#1;class#String#0" expanded="false" />
+            <element signature="e#52980#53033#0" expanded="false" />
+            <element signature="e#53402#53466#0" expanded="false" />
+            <element signature="docComment;method#startsWith#0;class#String#0" expanded="false" />
+            <element signature="method#startsWith#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#startsWith#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#endsWith#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#String#0" expanded="false" />
+            <element signature="method#hashCode#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#indexOf#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#indexOf#1;class#String#0" expanded="false" />
+            <element signature="method#indexOf#1;class#String#0" expanded="false" />
+            <element signature="e#60775#60829#0" expanded="false" />
+            <element signature="docComment;method#indexOfSupplementary#0;class#String#0" expanded="false" />
+            <element signature="method#indexOfSupplementary#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#lastIndexOf#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#lastIndexOf#1;class#String#0" expanded="false" />
+            <element signature="method#lastIndexOf#1;class#String#0" expanded="false" />
+            <element signature="e#64802#64856#0" expanded="false" />
+            <element signature="docComment;method#lastIndexOfSupplementary#0;class#String#0" expanded="false" />
+            <element signature="method#lastIndexOfSupplementary#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#indexOf#2;class#String#0" expanded="false" />
+            <element signature="docComment;method#indexOf#3;class#String#0" expanded="false" />
+            <element signature="method#indexOf#3;class#String#0" expanded="false" />
+            <element signature="docComment;method#indexOf#4;class#String#0" expanded="false" />
+            <element signature="method#indexOf#4;class#String#0" expanded="false" />
+            <element signature="docComment;method#indexOf#5;class#String#0" expanded="false" />
+            <element signature="method#indexOf#5;class#String#0" expanded="false" />
+            <element signature="docComment;method#lastIndexOf#2;class#String#0" expanded="false" />
+            <element signature="docComment;method#lastIndexOf#3;class#String#0" expanded="false" />
+            <element signature="method#lastIndexOf#3;class#String#0" expanded="false" />
+            <element signature="docComment;method#lastIndexOf#4;class#String#0" expanded="false" />
+            <element signature="method#lastIndexOf#4;class#String#0" expanded="false" />
+            <element signature="docComment;method#lastIndexOf#5;class#String#0" expanded="false" />
+            <element signature="method#lastIndexOf#5;class#String#0" expanded="false" />
+            <element signature="docComment;method#substring#0;class#String#0" expanded="false" />
+            <element signature="method#substring#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#substring#1;class#String#0" expanded="false" />
+            <element signature="method#substring#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#subSequence#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#concat#0;class#String#0" expanded="false" />
+            <element signature="method#concat#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#replace#0;class#String#0" expanded="false" />
+            <element signature="method#replace#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#matches#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#contains#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#replaceFirst#0;class#String#0" expanded="false" />
+            <element signature="method#replaceFirst#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#replaceAll#0;class#String#0" expanded="false" />
+            <element signature="method#replaceAll#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#replace#1;class#String#0" expanded="false" />
+            <element signature="method#replace#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#split#0;class#String#0" expanded="false" />
+            <element signature="method#split#0;class#String#0" expanded="false" />
+            <element signature="e#92274#92285#0" expanded="false" />
+            <element signature="docComment;method#split#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#join#0;class#String#0" expanded="false" />
+            <element signature="method#join#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#join#1;class#String#0" expanded="false" />
+            <element signature="method#join#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#toLowerCase#0;class#String#0" expanded="false" />
+            <element signature="method#toLowerCase#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#toLowerCase#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#toUpperCase#0;class#String#0" expanded="false" />
+            <element signature="method#toUpperCase#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#toUpperCase#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#trim#0;class#String#0" expanded="false" />
+            <element signature="method#trim#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#toCharArray#0;class#String#0" expanded="false" />
+            <element signature="method#toCharArray#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#format#0;class#String#0" expanded="false" />
+            <element signature="method#format#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#format#1;class#String#0" expanded="false" />
+            <element signature="method#format#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#valueOf#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#valueOf#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#valueOf#2;class#String#0" expanded="false" />
+            <element signature="docComment;method#copyValueOf#0;class#String#0" expanded="false" />
+            <element signature="docComment;method#copyValueOf#1;class#String#0" expanded="false" />
+            <element signature="docComment;method#valueOf#3;class#String#0" expanded="false" />
+            <element signature="docComment;method#valueOf#4;class#String#0" expanded="false" />
+            <element signature="method#valueOf#4;class#String#0" expanded="false" />
+            <element signature="docComment;method#valueOf#5;class#String#0" expanded="false" />
+            <element signature="docComment;method#valueOf#6;class#String#0" expanded="false" />
+            <element signature="docComment;method#valueOf#7;class#String#0" expanded="false" />
+            <element signature="docComment;method#valueOf#8;class#String#0" expanded="false" />
+            <element signature="docComment;method#intern#0;class#String#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.1.0/kafka-clients-0.10.1.0.jar!/org/apache/kafka/common/serialization/StringSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/KafkaResponseHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/BookSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
+          <folding>
+            <element signature="n#modules#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.1.0/kafka-clients-0.10.1.0.jar!/org/apache/kafka/clients/producer/KafkaProducer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="217" column="31" selection-start-line="217" selection-start-column="31" selection-end-line="217" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/ProducerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        <state relative-caret-position="340">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1092#1108#0" expanded="true" />
-            <element signature="e#1445#1461#0" expanded="true" />
+            <element signature="e#1189#1205#0" expanded="true" />
+            <element signature="e#1542#1558#0" expanded="true" />
+            <element signature="e#1886#2028#0" expanded="true" />
+            <element signature="e#2027#2028#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/di/DIConfigurationModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="110" column="39" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="507" column="19" selection-start-line="507" selection-start-column="19" selection-end-line="507" selection-end-column="19" />
+          <folding>
+            <element signature="docComment;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#size#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#isEmpty#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#contains#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#iterator#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#toArray#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#toArray#1;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#add#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#remove#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#containsAll#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#addAll#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#removeAll#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#removeIf#0;class#Collection#0" expanded="false" />
+            <element signature="method#removeIf#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#retainAll#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#clear#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#equals#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#spliterator#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#stream#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#parallelStream#0;class#Collection#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/AutoCloseable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/LocalDataProviderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/module/GuideDemoModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/GuiceDemoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/LookupProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/RemoteDataProviderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="53" />
+          <folding>
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/DataProviderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/test/java/service/DataProviderServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

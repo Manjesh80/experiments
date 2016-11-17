@@ -9,7 +9,12 @@ import org.apache.kafka.clients.producer.RecordMetadata;
 public class KafkaResponseHandler implements Callback {
 
     public void onCompletion(RecordMetadata recordMetadata, Exception e) {
-        System.out.println("Partition ==> " + recordMetadata.partition());
-        System.out.println("Offset ==> " + recordMetadata.offset());
+        if( recordMetadata != null) {
+            System.out.println("Partition ==> " + recordMetadata.partition());
+            System.out.println("Offset ==> " + recordMetadata.offset());
+        }
+        if( e != null) {
+            e.printStackTrace();
+        }
     }
 }

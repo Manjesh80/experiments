@@ -29,11 +29,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="common" target="1.5" />
+      <module name="common" target="1.8" />
       <module name="experiments" target="1.5" />
-      <module name="guava-demo" target="1.5" />
+      <module name="guava-demo" target="1.8" />
       <module name="guice-demo" target="1.7" />
-      <module name="kafka-demo" target="1.5" />
+      <module name="kafka-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
