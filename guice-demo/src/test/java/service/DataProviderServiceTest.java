@@ -24,6 +24,7 @@ public class DataProviderServiceTest {
         DataProviderService dataProviderService = GuiceDemoFactory.create().createDtaProviderService();
         List<String> remoteData = dataProviderService.getData();
         assertThat(remoteData.size(), is(1));
-        assertThat(remoteData.contains("Data from remote system"),is(Boolean.TRUE));
+        assertThat(remoteData.contains("Dynamic Configuration Service"),is(Boolean.TRUE));
     }
+
 }

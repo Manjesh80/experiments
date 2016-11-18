@@ -1,5 +1,7 @@
 package com.manjesh.guicedemo.service;
 
+import com.google.inject.Inject;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -8,9 +10,17 @@ import java.util.List;
  */
 public class LocalDataProviderService implements DataProviderService {
 
+    //final private ServiceConfig serviceConfig;
+    final private ConfigurationService configurationService;
+
+    @Inject
+    public LocalDataProviderService(ConfigurationService configurationService) {
+        this.configurationService = configurationService;
+    }
+
     @Override
     public List<String> getData() {
-        return Arrays.asList("Data from local system");
+        return Arrays.asList(configurationService.getConfigurationService());
     }
 
     @Override

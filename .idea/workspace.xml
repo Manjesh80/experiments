@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fcad6b7-575a-4f6d-9aa5-8263671fd99c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/KafkaResponseHandler.java" afterPath="$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/KafkaResponseHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/ProducerDemo.java" afterPath="$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/ProducerDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/GuiceDemoFactory.java" afterPath="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/GuiceDemoFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/module/GuideDemoModule.java" afterPath="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/module/GuideDemoModule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/LocalDataProviderService.java" afterPath="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/LocalDataProviderService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/RemoteDataProviderService.java" afterPath="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/RemoteDataProviderService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guice-demo/src/test/java/service/DataProviderServiceTest.java" afterPath="$PROJECT_DIR$/guice-demo/src/test/java/service/DataProviderServiceTest.java" />
     </list>
     <ignored path="experiments.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,50 +33,13 @@
     <favorites_list name="experiments" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DataProviderService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/DataProviderService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataProviderServiceTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/guice-demo/src/test/java/service/DataProviderServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoteDataProviderService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/RemoteDataProviderService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="53" />
-              <folding>
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -128,13 +91,20 @@
         <option value="$PROJECT_DIR$/kafka-demo/src/main/java/com/manjesh/expermients/kafademo/ProducerDemo.java" />
         <option value="$PROJECT_DIR$/thread-demo/pom.xml" />
         <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/ExcelDataProviderService.java" />
-        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/LocalDataProviderService.java" />
-        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/RemoteDataProviderService.java" />
         <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/module/module.java" />
-        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/module/GuideDemoModule.java" />
-        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/GuiceDemoFactory.java" />
         <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/DataProviderService.java" />
+        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/ServiceConfig.java" />
+        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/GuiceDemoFactory.java" />
+        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/ConfigurationService.java" />
+        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/StaticConfigurationService.java" />
+        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/DynamicConfigurationService.java" />
+        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/LocalDataProviderService.java" />
         <option value="$PROJECT_DIR$/guice-demo/src/test/java/service/DataProviderServiceTest.java" />
+        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/WebLogger.java" />
+        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/WebLoggerImpl.java" />
+        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/launcher/DynamicSource.java" />
+        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/module/GuideDemoModule.java" />
+        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/RemoteDataProviderService.java" />
       </list>
     </option>
   </component>
@@ -193,6 +163,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -319,10 +291,76 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guice-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guicedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guice-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guicedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="launcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,7 +373,12 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="SearchEverywhereHistoryKey" value="UTF_8&#9;PSI&#9;JAVA://java.nio.charset.StandardCharsets#UTF_8&#10;greate&#9;PSI&#9;JAVA://org.mockito.internal.matchers.GreaterThan" />
   </component>
-  <component name="RunManager" selected="JUnit.DataProviderServiceTest">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.manjesh.guicedemo.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DataProviderServiceTest.testRemoteDataService">
     <configuration default="false" name="testCompareTo.testOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="guava-demo" />
@@ -391,6 +434,32 @@
       <option name="MAIN_CLASS_NAME" value="service.DataProviderServiceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DataProviderServiceTest.testRemoteDataService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="guice-demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.DataProviderServiceTest" />
+      <option name="METHOD_NAME" value="testRemoteDataService" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -913,16 +982,18 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.testCompareTo.testOrder" />
       <item index="1" class="java.lang.String" itemvalue="Application.ProducerDemo" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.DataProviderServiceTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DataProviderServiceTest.testRemoteDataService" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DataProviderServiceTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ProducerDemo" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.testCompareTo.testOrder" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DataProviderServiceTest.testRemoteDataService" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DataProviderServiceTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ProducerDemo" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.testCompareTo.testOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -948,22 +1019,35 @@
       <workItem from="1478020199751" duration="79000" />
       <workItem from="1479142113464" duration="3332000" />
       <workItem from="1479146715256" duration="4661000" />
-      <workItem from="1479309573904" duration="18014000" />
+      <workItem from="1479309573904" duration="20545000" />
+      <workItem from="1479486152122" duration="3791000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DataProviderServiceTest - 2016.11.17 at 15h 43m 51s.xml">
-      <configuration name="DataProviderServiceTest" configurationId="JUnit" />
+    <history-entry file="DataProviderServiceTest_testRemoteDataService - 2016.11.18 at 15h 25m 14s.xml">
+      <configuration name="DataProviderServiceTest.testRemoteDataService" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testCompareTo_testOrder - 2016.11.14 at 13h 52m 02s.xml">
-      <configuration name="testCompareTo.testOrder" configurationId="JUnit" />
+    <history-entry file="DataProviderServiceTest_testRemoteDataService - 2016.11.18 at 16h 02m 28s.xml">
+      <configuration name="DataProviderServiceTest.testRemoteDataService" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testCompareTo_testOrder - 2016.11.14 at 13h 52m 26s.xml">
-      <configuration name="testCompareTo.testOrder" configurationId="JUnit" />
+    <history-entry file="DataProviderServiceTest_testRemoteDataService - 2016.11.18 at 16h 02m 38s.xml">
+      <configuration name="DataProviderServiceTest.testRemoteDataService" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testCompareTo_testOrder - 2016.11.14 at 13h 52m 57s.xml">
-      <configuration name="testCompareTo.testOrder" configurationId="JUnit" />
+    <history-entry file="DataProviderServiceTest_testRemoteDataService - 2016.11.18 at 16h 03m 42s.xml">
+      <configuration name="DataProviderServiceTest.testRemoteDataService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataProviderServiceTest_testRemoteDataService - 2016.11.18 at 16h 08m 23s.xml">
+      <configuration name="DataProviderServiceTest.testRemoteDataService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataProviderServiceTest_testRemoteDataService - 2016.11.18 at 16h 08m 47s.xml">
+      <configuration name="DataProviderServiceTest.testRemoteDataService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataProviderServiceTest_testRemoteDataService - 2016.11.18 at 16h 20m 37s.xml">
+      <configuration name="DataProviderServiceTest.testRemoteDataService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataProviderServiceTest_testRemoteDataService - 2016.11.18 at 16h 21m 21s.xml">
+      <configuration name="DataProviderServiceTest.testRemoteDataService" configurationId="JUnit" />
     </history-entry>
     <history-entry file="testCompareTo_testOrder - 2016.11.14 at 13h 53m 12s.xml">
       <configuration name="testCompareTo.testOrder" configurationId="JUnit" />
@@ -973,7 +1057,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27645000" />
+    <option name="totallyTimeSpent" value="33967000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -986,7 +1070,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1634" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -995,26 +1079,26 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13341804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26873663" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13468869" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.379015" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35117772" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49036402" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50214136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26238883" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25603557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.506424" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38650963" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1048,14 +1132,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/guice-demo/src/test/java/service/DataProviderServiceTest.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
@@ -1065,93 +1141,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.10/lombok-1.16.10.jar!/lombok/Data.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.m2/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="15" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.manjesh:guava-demo:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.manjesh:guava-demo:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.manjesh:guava-demo:1.0-SNAPSHOT</node>
-            <node x="" y="">junit:junit:jar:4.11</node>
-            <node x="" y="">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="" y="">org.mockito:mockito-core:jar:2.2.16</node>
-            <node x="" y="">org.mockito:mockito-core:jar:2.2.16/net.bytebuddy:byte-buddy:jar:1.5.3</node>
-            <node x="" y="">org.mockito:mockito-core:jar:2.2.16/net.bytebuddy:byte-buddy-agent:jar:1.5.3</node>
-            <node x="" y="">org.mockito:mockito-core:jar:2.2.16/org.objenesis:objenesis:jar:2.4</node>
-            <node x="" y="">com.google.guava:guava:jar:14.0</node>
-            <node x="" y="">org.projectlombok:lombok:jar:1.16.10</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="250.0" y="155.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="326" column="27" selection-start-line="326" selection-start-column="27" selection-end-line="326" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.2.16/mockito-core-2.2.16.jar!/org/mockito/internal/matchers/GreaterThan.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/CoreMatchers.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="107" column="40" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
-          <folding>
-            <element signature="e#4117#4118#0" expanded="true" />
-            <element signature="e#4152#4153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/Matcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Hashtable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="129" column="13" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,7 +1152,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="121" column="30" selection-start-line="121" selection-start-column="30" selection-end-line="121" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1167,7 +1159,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="150" column="6" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1175,10 +1166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
           <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
-          <folding>
-            <element signature="e#1954#1955#0" expanded="true" />
-            <element signature="e#2008#2009#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1186,7 +1173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1194,7 +1180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1202,7 +1187,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1218,7 +1202,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,7 +1209,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1234,16 +1216,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#equals#0;class#TradeAccount#0" expanded="false" />
-            <element signature="method#hashCode#0;class#TradeAccount#0" expanded="false" />
-            <element signature="class#Builder#0;class#TradeAccount#0" expanded="false" />
-            <element signature="method#Builder#0;class#Builder#0;class#TradeAccount#0" expanded="false" />
-            <element signature="method#id#0;class#Builder#0;class#TradeAccount#0" expanded="false" />
-            <element signature="method#owner#0;class#Builder#0;class#TradeAccount#0" expanded="false" />
-            <element signature="method#balance#0;class#Builder#0;class#TradeAccount#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1251,18 +1223,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <element signature="method#toString#0;class#City#0" expanded="false" />
-            <element signature="method#equals#0;class#City#0" expanded="false" />
-            <element signature="method#hashCode#0;class#City#0" expanded="false" />
-            <element signature="class#Builder#0;class#City#0" expanded="false" />
-            <element signature="method#name#0;class#Builder#0;class#City#0" expanded="false" />
-            <element signature="method#zipCode#0;class#Builder#0;class#City#0" expanded="false" />
-            <element signature="method#population#0;class#Builder#0;class#City#0" expanded="false" />
-            <element signature="method#averageRainfall#0;class#Builder#0;class#City#0" expanded="false" />
-            <element signature="method#climate#0;class#Builder#0;class#City#0" expanded="false" />
-            <element signature="method#build#0;class#Builder#0;class#City#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1270,15 +1230,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="method#equals#0;class#Person#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Person#0" expanded="false" />
-            <element signature="class#Builder#0;class#Person#0" expanded="false" />
-            <element signature="method#firstName#0;class#Builder#0;class#Person#0" expanded="false" />
-            <element signature="method#lastName#0;class#Builder#0;class#Person#0" expanded="false" />
-            <element signature="method#age#0;class#Builder#0;class#Person#0" expanded="false" />
-            <element signature="method#sex#0;class#Builder#0;class#Person#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1294,9 +1245,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1304,10 +1252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-          <folding>
-            <element signature="e#858#859#0" expanded="false" />
-            <element signature="e#895#896#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1315,11 +1259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#269#270#0" expanded="false" />
-            <element signature="e#317#318#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1327,17 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#toString#0;class#Book#0" expanded="false" />
-            <element signature="method#compareTo#0;class#Book#0" expanded="false" />
-            <element signature="class#Builder#0;class#Book#0" expanded="false" />
-            <element signature="method#author#0;class#Builder#0;class#Book#0" expanded="false" />
-            <element signature="method#title#0;class#Builder#0;class#Book#0" expanded="false" />
-            <element signature="method#publisher#0;class#Builder#0;class#Book#0" expanded="false" />
-            <element signature="method#isbn#0;class#Builder#0;class#Book#0" expanded="false" />
-            <element signature="method#price#0;class#Builder#0;class#Book#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1345,7 +1273,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="1317" column="22" selection-start-line="1317" selection-start-column="22" selection-end-line="1317" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1361,7 +1288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1369,11 +1295,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="34" column="35" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#1626#0" expanded="false" />
-            <element signature="e#554#555#0" expanded="false" />
-            <element signature="e#653#654#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1381,7 +1302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1049">
           <caret line="270" column="22" selection-start-line="270" selection-start-column="22" selection-end-line="270" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1389,169 +1309,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="956" column="18" selection-start-line="956" selection-start-column="18" selection-end-line="956" selection-end-column="18" />
-          <folding>
-            <element signature="docComment;class#String#0" expanded="false" />
-            <element signature="docComment;field#value#0;class#String#0" expanded="false" />
-            <element signature="docComment;field#hash#0;class#String#0" expanded="false" />
-            <element signature="docComment;field#serialVersionUID#0;class#String#0" expanded="false" />
-            <element signature="docComment;field#serialPersistentFields#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#1;class#String#0" expanded="false" />
-            <element signature="method#String#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#2;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#3;class#String#0" expanded="false" />
-            <element signature="method#String#3;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#4;class#String#0" expanded="false" />
-            <element signature="method#String#4;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#5;class#String#0" expanded="false" />
-            <element signature="method#String#5;class#String#0" expanded="false" />
-            <element signature="method#checkBounds#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#7;class#String#0" expanded="false" />
-            <element signature="method#String#7;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#8;class#String#0" expanded="false" />
-            <element signature="method#String#8;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#9;class#String#0" expanded="false" />
-            <element signature="method#String#9;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#10;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#11;class#String#0" expanded="false" />
-            <element signature="method#String#11;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#12;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#13;class#String#0" expanded="false" />
-            <element signature="method#String#13;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#14;class#String#0" expanded="false" />
-            <element signature="method#String#15;class#String#0" expanded="false" />
-            <element signature="docComment;method#length#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#isEmpty#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#charAt#0;class#String#0" expanded="false" />
-            <element signature="method#charAt#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#codePointAt#0;class#String#0" expanded="false" />
-            <element signature="method#codePointAt#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#codePointBefore#0;class#String#0" expanded="false" />
-            <element signature="method#codePointBefore#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#codePointCount#0;class#String#0" expanded="false" />
-            <element signature="method#codePointCount#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#offsetByCodePoints#0;class#String#0" expanded="false" />
-            <element signature="method#offsetByCodePoints#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#getChars#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#getChars#1;class#String#0" expanded="false" />
-            <element signature="method#getChars#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#getBytes#0;class#String#0" expanded="false" />
-            <element signature="method#getBytes#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#getBytes#1;class#String#0" expanded="false" />
-            <element signature="method#getBytes#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#getBytes#2;class#String#0" expanded="false" />
-            <element signature="method#getBytes#2;class#String#0" expanded="false" />
-            <element signature="docComment;method#getBytes#3;class#String#0" expanded="false" />
-            <element signature="e#36393#36394#0" expanded="false" />
-            <element signature="e#36459#36460#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#String#0" expanded="false" />
-            <element signature="method#equals#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#contentEquals#0;class#String#0" expanded="false" />
-            <element signature="method#nonSyncContentEquals#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#contentEquals#1;class#String#0" expanded="false" />
-            <element signature="method#contentEquals#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#equalsIgnoreCase#0;class#String#0" expanded="false" />
-            <element signature="method#equalsIgnoreCase#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#compareTo#0;class#String#0" expanded="false" />
-            <element signature="method#compareTo#0;class#String#0" expanded="false" />
-            <element signature="docComment;field#CASE_INSENSITIVE_ORDER#0;class#String#0" expanded="false" />
-            <element signature="class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
-            <element signature="method#compare#0;class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#readResolve#0;class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
-            <element signature="method#readResolve#0;class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#compareToIgnoreCase#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#regionMatches#0;class#String#0" expanded="false" />
-            <element signature="method#regionMatches#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#regionMatches#1;class#String#0" expanded="false" />
-            <element signature="method#regionMatches#1;class#String#0" expanded="false" />
-            <element signature="e#52980#53033#0" expanded="false" />
-            <element signature="e#53402#53466#0" expanded="false" />
-            <element signature="docComment;method#startsWith#0;class#String#0" expanded="false" />
-            <element signature="method#startsWith#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#startsWith#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#endsWith#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#String#0" expanded="false" />
-            <element signature="method#hashCode#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#indexOf#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#indexOf#1;class#String#0" expanded="false" />
-            <element signature="method#indexOf#1;class#String#0" expanded="false" />
-            <element signature="e#60775#60829#0" expanded="false" />
-            <element signature="docComment;method#indexOfSupplementary#0;class#String#0" expanded="false" />
-            <element signature="method#indexOfSupplementary#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#lastIndexOf#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#lastIndexOf#1;class#String#0" expanded="false" />
-            <element signature="method#lastIndexOf#1;class#String#0" expanded="false" />
-            <element signature="e#64802#64856#0" expanded="false" />
-            <element signature="docComment;method#lastIndexOfSupplementary#0;class#String#0" expanded="false" />
-            <element signature="method#lastIndexOfSupplementary#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#indexOf#2;class#String#0" expanded="false" />
-            <element signature="docComment;method#indexOf#3;class#String#0" expanded="false" />
-            <element signature="method#indexOf#3;class#String#0" expanded="false" />
-            <element signature="docComment;method#indexOf#4;class#String#0" expanded="false" />
-            <element signature="method#indexOf#4;class#String#0" expanded="false" />
-            <element signature="docComment;method#indexOf#5;class#String#0" expanded="false" />
-            <element signature="method#indexOf#5;class#String#0" expanded="false" />
-            <element signature="docComment;method#lastIndexOf#2;class#String#0" expanded="false" />
-            <element signature="docComment;method#lastIndexOf#3;class#String#0" expanded="false" />
-            <element signature="method#lastIndexOf#3;class#String#0" expanded="false" />
-            <element signature="docComment;method#lastIndexOf#4;class#String#0" expanded="false" />
-            <element signature="method#lastIndexOf#4;class#String#0" expanded="false" />
-            <element signature="docComment;method#lastIndexOf#5;class#String#0" expanded="false" />
-            <element signature="method#lastIndexOf#5;class#String#0" expanded="false" />
-            <element signature="docComment;method#substring#0;class#String#0" expanded="false" />
-            <element signature="method#substring#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#substring#1;class#String#0" expanded="false" />
-            <element signature="method#substring#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#subSequence#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#concat#0;class#String#0" expanded="false" />
-            <element signature="method#concat#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#replace#0;class#String#0" expanded="false" />
-            <element signature="method#replace#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#matches#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#contains#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#replaceFirst#0;class#String#0" expanded="false" />
-            <element signature="method#replaceFirst#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#replaceAll#0;class#String#0" expanded="false" />
-            <element signature="method#replaceAll#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#replace#1;class#String#0" expanded="false" />
-            <element signature="method#replace#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#split#0;class#String#0" expanded="false" />
-            <element signature="method#split#0;class#String#0" expanded="false" />
-            <element signature="e#92274#92285#0" expanded="false" />
-            <element signature="docComment;method#split#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#join#0;class#String#0" expanded="false" />
-            <element signature="method#join#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#join#1;class#String#0" expanded="false" />
-            <element signature="method#join#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#toLowerCase#0;class#String#0" expanded="false" />
-            <element signature="method#toLowerCase#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#toLowerCase#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#toUpperCase#0;class#String#0" expanded="false" />
-            <element signature="method#toUpperCase#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#toUpperCase#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#trim#0;class#String#0" expanded="false" />
-            <element signature="method#trim#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#toCharArray#0;class#String#0" expanded="false" />
-            <element signature="method#toCharArray#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#format#0;class#String#0" expanded="false" />
-            <element signature="method#format#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#format#1;class#String#0" expanded="false" />
-            <element signature="method#format#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#valueOf#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#valueOf#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#valueOf#2;class#String#0" expanded="false" />
-            <element signature="docComment;method#copyValueOf#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#copyValueOf#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#valueOf#3;class#String#0" expanded="false" />
-            <element signature="docComment;method#valueOf#4;class#String#0" expanded="false" />
-            <element signature="method#valueOf#4;class#String#0" expanded="false" />
-            <element signature="docComment;method#valueOf#5;class#String#0" expanded="false" />
-            <element signature="docComment;method#valueOf#6;class#String#0" expanded="false" />
-            <element signature="docComment;method#valueOf#7;class#String#0" expanded="false" />
-            <element signature="docComment;method#valueOf#8;class#String#0" expanded="false" />
-            <element signature="docComment;method#intern#0;class#String#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1559,7 +1316,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1567,9 +1323,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1577,9 +1330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1603,7 +1353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="217" column="31" selection-start-line="217" selection-start-column="31" selection-end-line="217" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1627,13 +1376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1189#1205#0" expanded="true" />
-            <element signature="e#1542#1558#0" expanded="true" />
-            <element signature="e#1886#2028#0" expanded="true" />
-            <element signature="e#2027#2028#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1649,7 +1391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="110" column="39" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1657,29 +1398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
           <caret line="507" column="19" selection-start-line="507" selection-start-column="19" selection-end-line="507" selection-end-column="19" />
-          <folding>
-            <element signature="docComment;class#Collection#0" expanded="false" />
-            <element signature="docComment;method#size#0;class#Collection#0" expanded="false" />
-            <element signature="docComment;method#isEmpty#0;class#Collection#0" expanded="false" />
-            <element signature="docComment;method#contains#0;class#Collection#0" expanded="false" />
-            <element signature="docComment;method#iterator#0;class#Collection#0" expanded="false" />
-            <element signature="docComment;method#toArray#0;class#Collection#0" expanded="false" />
-            <element signature="docComment;method#toArray#1;class#Collection#0" expanded="false" />
-            <element signature="docComment;method#add#0;class#Collection#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#Collection#0" expanded="false" />
-            <element signature="docComment;method#containsAll#0;class#Collection#0" expanded="false" />
-            <element signature="docComment;method#addAll#0;class#Collection#0" expanded="false" />
-            <element signature="docComment;method#removeAll#0;class#Collection#0" expanded="false" />
-            <element signature="docComment;method#removeIf#0;class#Collection#0" expanded="false" />
-            <element signature="method#removeIf#0;class#Collection#0" expanded="false" />
-            <element signature="docComment;method#retainAll#0;class#Collection#0" expanded="false" />
-            <element signature="docComment;method#clear#0;class#Collection#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Collection#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#Collection#0" expanded="false" />
-            <element signature="docComment;method#spliterator#0;class#Collection#0" expanded="false" />
-            <element signature="docComment;method#stream#0;class#Collection#0" expanded="false" />
-            <element signature="docComment;method#parallelStream#0;class#Collection#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1691,44 +1409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/LocalDataProviderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="55" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/module/GuideDemoModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/GuiceDemoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/LookupProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1737,31 +1417,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/RemoteDataProviderService.java">
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/ServiceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="53" />
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/GuiceDemoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/DataProviderService.java">
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/StaticConfigurationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="153">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/LocalDataProviderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/WebLoggerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/launcher/DynamicSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/launcher/GuiceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/DynamicConfigurationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/ConfigurationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/WebLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/module/GuideDemoModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/DataProviderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/guice-demo/src/test/java/service/DataProviderServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+        <state relative-caret-position="221">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/RemoteDataProviderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
