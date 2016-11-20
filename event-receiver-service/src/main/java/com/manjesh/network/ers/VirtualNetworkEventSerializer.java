@@ -46,7 +46,7 @@ public class VirtualNetworkEventSerializer implements
 
     @Override
     public boolean isWriteable(Class<?> aClass, Type type, Annotation[] annotations, MediaType mediaType) {
-        return false;
+        return true;
     }
 
     @Override

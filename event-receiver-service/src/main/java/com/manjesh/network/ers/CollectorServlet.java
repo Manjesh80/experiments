@@ -34,7 +34,7 @@ public class CollectorServlet extends HttpServlet {
 
         Client client = ClientBuilder.newClient();
         client.register(VirtualNetworkEventSerializer.class)
-                .register(VirtualNetworkEvent.class)
+                .register(EventReceiverService.class)
                 .register(ClientLoggingFilter.class);
 
         WebTarget target = client.target("http://"
