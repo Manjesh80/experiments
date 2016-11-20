@@ -1,0 +1,22 @@
+package com.manjesh.guicedemo.launcher;
+
+import com.google.inject.BindingAnnotation;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.ElementType.METHOD;
+import static java.lang.annotation.ElementType.PARAMETER;
+
+/**
+ * Author: mg153v (Manjesh Gowda). Creation Date: 11/18/2016.
+ */
+
+@BindingAnnotation
+@Target( { FIELD, PARAMETER, METHOD })
+@Retention(RetentionPolicy.RUNTIME)
+public @interface DynamicSource {
+}

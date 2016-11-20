@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>experiments</artifactId>
+        <groupId>com.manjesh</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>event-receiver-service</artifactId>
+    <name>event-receiver-service</name>
+    <packaging>war</packaging>
+    <description>Highly scalable RESTful Webservice for faster writes of network events</description>
+
+    <repositories>
+        <repository>
+            <id>java.net2</id>
+            <name>Repository hosting the jee6 artifacts</name>
+            <url>https://maven.java.net/content/repositories/snapshots</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>javax.ws.rs</groupId>
+            <artifactId>javax.ws.rs-api</artifactId>
+            <version>2.0-rc3</version>
+        </dependency>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-web-api</artifactId>
+            <version>7.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.manjesh</groupId>
+            <artifactId>domain-model</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <!--<exclusions>
+                <exclusion>
+                    <groupId>com.google.guava</groupId>
+                    <artifactId>guava</artifactId>
+                </exclusion>
+            </exclusions>-->
+        </dependency>
+    </dependencies>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.1-beta-1</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+        </plugins>
+        <finalName>event-receiver-service</finalName>
+    </build>
+
+</project>
+
+
+
+
+
+
+
+
+
