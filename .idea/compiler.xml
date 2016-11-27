@@ -28,6 +28,7 @@
         <module name="guava-demo" />
         <module name="guice-demo" />
         <module name="kafka-demo" />
+        <module name="performance-demo" />
         <module name="thread-demo" />
       </profile>
     </annotationProcessing>
@@ -39,6 +40,7 @@
       <module name="guava-demo" target="1.8" />
       <module name="guice-demo" target="1.7" />
       <module name="kafka-demo" target="1.8" />
+      <module name="performance-demo" target="1.8" />
       <module name="thread-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>

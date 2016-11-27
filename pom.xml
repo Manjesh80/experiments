@@ -16,6 +16,7 @@
         <module>common</module>
         <module>domain-model</module>
         <module>event-receiver-service</module>
+        <module>performance-demo</module>
     </modules>
 
     <dependencies>
