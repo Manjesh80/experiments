@@ -14,7 +14,7 @@
       <entry name="!?*.aj" />
     </wildcardResourcePatterns>
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="false">
+      <profile default="true" name="Default" enabled="true">
         <processorPath useClasspath="true" />
       </profile>
       <profile default="false" name="Maven default annotation processors profile" enabled="true">
@@ -23,17 +23,27 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="common" />
+        <module name="domain-model" />
+        <module name="event-receiver-service" />
         <module name="guava-demo" />
         <module name="guice-demo" />
         <module name="kafka-demo" />
+        <module name="logger-demo" />
+        <module name="performance-demo" />
+        <module name="thread-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common" target="1.8" />
+      <module name="domain-model" target="1.8" />
+      <module name="event-receiver-service" target="1.8" />
       <module name="experiments" target="1.5" />
       <module name="guava-demo" target="1.8" />
       <module name="guice-demo" target="1.7" />
       <module name="kafka-demo" target="1.8" />
+      <module name="logger-demo" target="1.8" />
+      <module name="performance-demo" target="1.8" />
+      <module name="thread-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

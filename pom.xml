@@ -12,8 +12,12 @@
         <module>guice-demo</module>
         <module>guava-demo</module>
         <module>kafka-demo</module>
-        <module>common</module>
         <module>thread-demo</module>
+        <module>common</module>
+        <module>domain-model</module>
+        <module>event-receiver-service</module>
+        <module>performance-demo</module>
+        <module>logger-demo</module>
     </modules>
 
     <dependencies>
@@ -31,7 +35,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>14.0</version>
+            <version>20.0</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
