@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fcad6b7-575a-4f6d-9aa5-8263671fd99c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="experiments.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +37,50 @@
       <file leaf-file-name="DemoGenerics.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nuggets/src/main/java/com/manjesh/experiments/nuggets/genericlimitations/DemoGenerics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mobile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nuggets/src/main/java/com/manjesh/experiments/nuggets/genericlimitations/Mobile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Throwable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Throwable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Exception.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Exception.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -52,6 +92,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Singleton" />
         <option value="Class" />
       </list>
     </option>
@@ -67,8 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/launcher/DynamicSource.java" />
-        <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/module/GuideDemoModule.java" />
         <option value="$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/RemoteDataProviderService.java" />
         <option value="$PROJECT_DIR$/event-receiver-service/src/main/java/EventReceiverService.java" />
         <option value="$PROJECT_DIR$/event-receiver-service/src/main/java/com/manjesh/network/service/EventReceiverService.java" />
@@ -117,6 +156,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/nuggets/src/main/java/com/manjesh/experiments/nuggets/IntegerNode.java" />
         <option value="$PROJECT_DIR$/nuggets/src/main/java/com/manjesh/experiments/nuggets/typeerasure/Node.java" />
+        <option value="$PROJECT_DIR$/nuggets/src/main/java/com/manjesh/experiments/nuggets/genericlimitations/TestStatic.java" />
+        <option value="$PROJECT_DIR$/nuggets/src/main/java/com/manjesh/experiments/nuggets/genericlimitations/Mobile.java" />
         <option value="$PROJECT_DIR$/nuggets/src/main/java/com/manjesh/experiments/nuggets/genericlimitations/DemoGenerics.java" />
       </list>
     </option>
@@ -1302,7 +1343,7 @@
       <workItem from="1480347950583" duration="517000" />
       <workItem from="1480363168551" duration="1330000" />
       <workItem from="1480518090920" duration="869000" />
-      <workItem from="1480708066286" duration="1017000" />
+      <workItem from="1480708066286" duration="5628000" />
     </task>
     <servers />
   </component>
@@ -1339,7 +1380,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37700000" />
+    <option name="totallyTimeSpent" value="42311000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1444,35 +1485,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Set.java" />
-    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/module/GuideDemoModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/ConfigurationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/DataProviderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/DynamicConfigurationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guice-demo/src/main/java/com/manjesh/guicedemo/service/LocalDataProviderService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1770,11 +1782,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuggets/src/main/java/com/manjesh/experiments/nuggets/genericlimitations/Mobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nuggets/src/main/java/com/manjesh/experiments/nuggets/genericlimitations/DemoGenerics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="374">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
