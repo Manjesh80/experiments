@@ -18,6 +18,7 @@
         <module>event-receiver-service</module>
         <module>performance-demo</module>
         <module>logger-demo</module>
+        <module>nuggets</module>
     </modules>
 
     <dependencies>
