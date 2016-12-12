@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2015-16 AT&T Intellectual Property. All rights reserved.
+  ~ THIS IS UNPUBLISHED PROPRIETARY SOURCE CODE OF AT&T.
+  ~ The copyright notice above does not evidence any actual or intended publication of such source code.
+  -->
+<configuration>
+
+    <property name="defaultPattern" value="%date{ISO8601,UTC}|%X{RequestId}|%X{ServiceInstanceId}|%thread|%X{VirtualServerName}|%X{ServiceName}|%X{InstanceUUID}|%.-5level|%X{AlertSeverity}|%X{ServerIPAddress}|%X{ServerFQDN}|%X{RemoteHost}|%X{ClassName}|%X{Timer}| %msg%n" />
+    <property name="debugLoggerPattern" value="%date{ISO8601,UTC}|%X{RequestId}| %msg%n" />
+
+    <appender name="TESTLOG" class="ch.qos.logback.core.rolling.FileAppender">
+        <file>error.log</file>
+        <encoder>
+            <pattern>${debugLoggerPattern}</pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="TESTLOG"/>
+    </root>
+
+</configuration>
+
