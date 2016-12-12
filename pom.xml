@@ -17,8 +17,8 @@
         <module>domain-model</module>
         <module>event-receiver-service</module>
         <module>performance-demo</module>
-        <!--<module>logger-demo</module>
-        <module>nuggets</module>-->
+        <module>logger-demo</module>
+        <module>nuggets</module>
         <module>ocjp</module>
     </modules>
 
