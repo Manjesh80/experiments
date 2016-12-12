@@ -46,3 +46,9 @@ dependency-reduced-pom.xml
 /.idea/workspace.xml
 /.idea/*
 
+/common/target/
+/domain-model/target/
+/event-receiver-service/target/
+/guava-demo/target/
+/guice-demo/target/
+/ocjp/target/
