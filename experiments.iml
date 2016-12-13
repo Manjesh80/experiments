@@ -12,6 +12,8 @@
       <sourceFolder url="file://$MODULE_DIR$/event-receiver-service/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/event-receiver-service/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/ocjp/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nuggets/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/logger-demo/src/main/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/event-receiver-service/target" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
