@@ -1,4 +1,4 @@
 https://www.safaribooksonline.com/library/view/oracle-certified-professional/9781484218365/9781484218358_Ch11.xhtml
 
-Section -> Synchronized Methods
+Section -> Concurrent Collections
 
