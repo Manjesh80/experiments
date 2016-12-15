@@ -69,6 +69,13 @@
         </repository>
     </repositories>
 
+    <scm>
+        <connection>scm:git:https://github.com/Manjesh80/experiments.git</connection>
+        <developerConnection>scm:git:git@github.com/Manjesh80/experiments.git</developerConnection>
+        <url>https://github.com/Manjesh80/experiments.git</url>
+        <tag>HEAD</tag>
+    </scm>
+
     <build>
         <pluginManagement>
             <plugins>
