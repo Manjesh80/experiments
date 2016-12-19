@@ -20,6 +20,7 @@
         <module>logger-demo</module>
         <module>nuggets</module>
         <module>ocjp</module>
+        <module>pattern-demo</module>
     </modules>
 
     <dependencies>
