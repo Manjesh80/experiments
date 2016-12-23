@@ -12,9 +12,9 @@ public class DemoExecutor {
 
     }
 
-    class SimpleRunnableTask implements Runnable {
-        public void run() {
-            System.out.println(" Simple runnable task ");
-        }
+class SimpleRunnableTask implements Runnable {
+    public void run() {
+        System.out.println(" Simple runnable task ");
     }
+}
 }
