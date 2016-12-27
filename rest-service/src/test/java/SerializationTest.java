@@ -1,4 +1,6 @@
 import com.manjesh.domain.model.NetworkEvent;
+import com.manjesh.serialization.JacksonGenericDataBinding;
+import com.manjesh.serialization.JacksonParsing;
 import com.manjesh.serialization.NetworkEventSerializerDemo;
 import org.junit.Assert;
 import org.junit.Assert.*;
@@ -18,4 +20,23 @@ public class SerializationTest {
 
         Assert.assertEquals("Event count is correct", 2, events.size());
     }
+
+    @Test
+    public void testJacksonEvents() throws Exception {
+
+        JacksonParsing jacksonParsing = new JacksonParsing();
+        List<NetworkEvent> events = jacksonParsing.deserializeEvents();
+
+        Assert.assertEquals("Event count is correct", 2, events.size());
+    }
+
+    @Test
+    public void testJacksonGenericBinding() throws Exception {
+
+        /*JacksonGenericDataBinding jacksonGenericDataBinding = new JacksonGenericDataBinding();
+        List<NetworkEvent> events = jacksonGenericDataBinding.deserializeEvents();
+
+        Assert.assertEquals("Event count is correct", 2, events.size());*/
+    }
+
 }
