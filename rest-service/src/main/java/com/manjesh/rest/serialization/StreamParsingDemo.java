@@ -1,4 +1,4 @@
-package com.manjesh.serialization;
+package com.manjesh.rest.serialization;
 
 /**
  * Author: mg153v (Manjesh Gowda). Creation Date: 12/23/2016.

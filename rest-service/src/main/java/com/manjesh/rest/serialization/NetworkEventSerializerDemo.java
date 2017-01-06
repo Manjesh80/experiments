@@ -1,25 +1,21 @@
-package com.manjesh.serialization;
+package com.manjesh.rest.serialization;
 
 
-import com.manjesh.domain.model.NetworkEvent;
+//import com.manjesh.domain.model.NetworkEvent;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.time.OffsetDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Calendar;
 import java.util.LinkedList;
 import java.util.List;
-import javax.json.Json;
+/*import javax.json.Json;
 import javax.json.JsonObject;
 import javax.json.JsonReader;
 import javax.json.JsonArray;
-import javax.json.JsonValue;
+import javax.json.JsonValue;*/
 
 
 /**
@@ -27,7 +23,7 @@ import javax.json.JsonValue;
  */
 public class NetworkEventSerializerDemo {
 
-    public List<NetworkEvent> deserializeEvents() throws IOException {
+    /*public List<NetworkEvent> deserializeEvents() throws IOException {
         List<NetworkEvent> events = new LinkedList<>();
         InputStream inputStream = getClass().getResourceAsStream("/events.json");
         Reader inputReader = new InputStreamReader(inputStream, "UTF-8");
@@ -49,6 +45,6 @@ public class NetworkEventSerializerDemo {
         inputReader.close();
         inputStream.close();
         return events;
-    }
+    }*/
 }
 

@@ -1,28 +1,11 @@
-package com.manjesh.serialization;
+package com.manjesh.rest.model;
 
-import com.fasterxml.jackson.databind.DeserializationFeature;
-import com.fasterxml.jackson.databind.ObjectMapper;
-
-import java.io.IOException;
 import java.time.OffsetDateTime;
 
-
-public class JacksonGenericDataBinding {
-
-    public static void main(String[] args) throws IOException {
-        JacksonGenericDataBinding jacksonGenericDataBinding = new JacksonGenericDataBinding();
-        jacksonGenericDataBinding.deserializeEvent();
-    }
-
-    public void deserializeEvent() throws IOException {
-        ObjectMapper objectMapper = new ObjectMapper();
-        objectMapper.findAndRegisterModules();
-        Event event = objectMapper.readValue(getClass().getResourceAsStream("/event.json"), Event.class);
-        System.out.println("Event ID ==>" + event.getDeviceID());
-    }
-}
-
-class Event {
+/**
+ * Author: mg153v (Manjesh Gowda). Creation Date: 1/5/2017.
+ */
+public class Event {
 
     private String deviceID;
     private String networkID;

@@ -1,7 +1,7 @@
-package com.manjesh.serialization;
+package com.manjesh.rest.serialization;
 
-import com.fasterxml.jackson.databind.JsonNode;
-import com.manjesh.domain.model.NetworkEvent;
+//import com.fasterxml.jackson.databind.JsonNode;
+//import com.manjesh.domain.model.NetworkEvent;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -10,13 +10,14 @@ import java.time.format.DateTimeFormatter;
 import java.util.LinkedList;
 import java.util.List;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+//import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
  * Author: mg153v (Manjesh Gowda). Creation Date: 12/23/2016.
  */
 public class JacksonParsing {
-    public List<NetworkEvent> deserializeEvents() throws IOException {
+
+    /*public List<NetworkEvent> deserializeEvents() throws IOException {
         List<NetworkEvent> events = new LinkedList<>();
         InputStream inputStream = getClass().getResourceAsStream("/events.json");
 
@@ -35,5 +36,5 @@ public class JacksonParsing {
         }
 
         return events;
-    }
+    }*/
 }
