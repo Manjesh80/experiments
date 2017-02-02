@@ -22,6 +22,7 @@
         <module>ocjp</module>
         <module>pattern-demo</module>
         <module>rest-service</module>
+        <module>spring-cucumber-demo</module>
     </modules>
 
     <dependencies>
