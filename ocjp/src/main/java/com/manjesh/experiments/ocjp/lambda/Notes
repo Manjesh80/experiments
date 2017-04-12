@@ -1,0 +1,20 @@
+
+
+Interface
+
+public interface Function<T, R> {
+ R apply( T t)
+}
+
+public interface Supplier<T> {
+ T get( );
+}
+
+
+public interface Predicate<T> {
+ boolean test( T t)
+}
+
+public interface Consumer<T> {
+ void accept( T t)
+}
